@@ -36,8 +36,8 @@ SKIP_TESTS='false'
 # git show -q HEAD --pretty=format:"${RELEASE_FLEX_IMAGE_FORMAT}"
 # The format string can therefore contain format placeholders:
 # https://git-scm.com/docs/git-show
-RELEASE_FLEX_IMAGE_FORMAT='gcr.io/endpointsv2/endpoints-runtime-flex:debian-git-%H'
-RELEASE_GENERIC_IMAGE_FORMAT='gcr.io/endpointsv2/endpoints-runtime'
+RELEASE_FLEX_IMAGE_FORMAT='gcr.io/ubikinvoice-project/endpoints-release/endpoints-runtime-flex:debian-git-%H'
+RELEASE_GENERIC_IMAGE_FORMAT='gcr.io/ubikinvoice-project/endpoints-release/endpoints-runtime'
 RELEASE_GENERIC_IMAGE_FORMAT+=':debian-git-%H'
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
