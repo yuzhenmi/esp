@@ -120,7 +120,7 @@ bind(
 git_repository(
     name = "tools",
     commit = ESP_TOOL,
-    remote = "https://github.com/cloudendpoints/endpoints-tools",
+    remote = "https://github.com/yuzhenmi/endpoints-tools",
 )
 
 #
